@@ -108,7 +108,7 @@ function endGame(){
     	/*if(flag){alert("Sorry, you lost... :[");
 	}else{alert("You win! :]");}*/
 
-	if (!flag) {
+	if (!flag && istart) {
 		$("status").textContent = "You win! :]";
     	}
 }
